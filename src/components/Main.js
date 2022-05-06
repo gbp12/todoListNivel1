@@ -4,6 +4,7 @@ import { Formulario } from "./Formulario"
 import { ToDoList } from "./ToDoList"
 import { useState } from "react"
 import { DoneList } from "./DoneList"
+//Funcion principal, que almacena el estado global, el cual es un objeto con dos listas que almacenan objetos en funcion de sus atributos
 function Main() {
 	const [estate, setestate] = useState({
 		toDo: [],
@@ -11,7 +12,7 @@ function Main() {
 	})
 	return (
 		<>
-			<Header></Header>
+			<Header />
 			<div className="main">
 				<Formulario estate={estate} setestate={setestate} />
 				<div className="second">

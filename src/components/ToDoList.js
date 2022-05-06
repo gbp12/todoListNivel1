@@ -1,5 +1,10 @@
 import "./styles/ToDoList.css"
 
+//Componente encargado de contener todas las tareas incompletas
+//El mismo componente optiene la lista de tareas por hacer, y las mapea dándole estructura individual a cada una
+//cuenta con un botón en cada tarea que, al pulsar, añade la tarea a la lista de completas y la elimina de las tareas por hacer
+//En caso de estas vacia la lista por hacer, no muestra nada
+
 export const ToDoList = ({ estate, setestate }) => {
 	return (
 		<>

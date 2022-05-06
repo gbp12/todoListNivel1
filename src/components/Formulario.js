@@ -1,5 +1,8 @@
 import "./styles/Formulario.css"
 import { useState } from "react"
+
+//formulario encargado de recoger los datos del usuario y despues de darle un formato adecuado a las etiquetas, lo setea en el estado
+
 export const Formulario = ({ estate, setestate }) => {
 	const [formu, setformu] = useState({ titulo: "", descripcion: "" })
 	const handleChange = (e) => {
@@ -12,7 +15,6 @@ export const Formulario = ({ estate, setestate }) => {
 	const handleSubmit = (e) => {
 		e.preventDefault()
 		var etiquetas = formu.tags.split(",")
-		console.log(etiquetas)
 		setestate({
 			...estate,
 			toDo: estate.toDo.concat({ titulo: formu.titulo, descripcion: formu.descripcion, tags: etiquetas }),

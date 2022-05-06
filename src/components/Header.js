@@ -1,4 +1,5 @@
 import "./styles/Header.css"
+//encabezado de la página simple acomodado con flex y space between
 export const Header = () => {
 	return (
 		<div className="headerMain">

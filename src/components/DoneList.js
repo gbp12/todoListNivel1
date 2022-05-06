@@ -1,5 +1,10 @@
 import "./styles/DoneList.css"
 
+//Componente encargado de contener todas las tareas cometas
+//El mismo componente optiene la lista de tareas hechas, y las mapea dándole estructura individual a cada una
+//cuenta con un botón en cada tarea que, al pulsar, añade la tarea a la lista de tareas para hacer y la elimina de las tareas hechas
+//En caso de estas vacia la lista de tareas hecha, no muestra nada
+
 export const DoneList = ({ estate, setestate }) => {
 	return (
 		<>
