@@ -19,6 +19,7 @@ function Main() {
 					<DoneList estate={estate} setestate={setestate}></DoneList>
 				</div>
 			</div>
+			<footer>Todos los derechos reservados 2022.</footer>
 		</>
 	)
 }
