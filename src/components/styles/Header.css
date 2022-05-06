@@ -1,0 +1,11 @@
+.titulo {
+	color: rgb(76, 0, 255);
+}
+
+.headerMain {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(165, 165, 165);
+	box-shadow: 5px 3px 5px rgb(39, 39, 39);
+}

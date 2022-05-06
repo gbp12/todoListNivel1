@@ -1,0 +1,12 @@
+.containerDoneList {
+	background-color: rgb(2, 138, 216);
+	width: 50%;
+	margin-top: 2%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	width: 45%;
+	border-radius: 10px;
+}
